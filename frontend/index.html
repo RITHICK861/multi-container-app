@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>TechNova Solutions</h1>
+    <p>CI/CD Demo Application</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Project</h2>
+        <p>Automated Multi-Container Deployment using Jenkins & Docker Compose</p>
+    </div>
+
+    <div class="card">
+        <h2>Backend Status</h2>
+        <button onclick="getStatus()">Check API</button>
+        <p id="status">Waiting...</p>
+    </div>
+
+    <div class="card">
+        <h2>Current Time</h2>
+        <p id="time"></p>
+    </div>
+
+</div>
+
+<footer>
+    Built using HTML • CSS • JavaScript • Flask • Docker • Jenkins
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
